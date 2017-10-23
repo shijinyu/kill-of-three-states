@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "outDir": "./built",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "lib": [
+            "es6"
+        ],
+        "types": [
+            "node"
+        ],
+        "target": "esnext",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        // "resolveGlobs": true,
+        // "useWebpackText": true
+      }
+}

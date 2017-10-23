@@ -1,0 +1,36 @@
+{
+  "name": "sanguosha-core",
+  "version": "0.0.1",
+  "description": "a sanguosha game engineer.",
+  "main": "./built/main.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js --progress --color",
+    "dev": "cross-env NODE_ENV=development npm run build",
+    "start": "node ./built/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shijinyu/sanguosha-core.git"
+  },
+  "keywords": [
+    "sanguosha"
+  ],
+  "author": "shijinyu <sjym90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shijinyu/sanguosha-core/issues"
+  },
+  "homepage": "https://github.com/shijinyu/sanguosha-core#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.46",
+    "awesome-typescript-loader": "^3.2.3",
+    "cross-env": "^5.1.0",
+    "ts-loader": "^3.0.5",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2"
+  }
+}
